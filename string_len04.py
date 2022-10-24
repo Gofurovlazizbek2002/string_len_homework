@@ -6,6 +6,7 @@ def main(s):
     Returns:
         string
     """
+    
 
-    return len('s')*"*"
+    return '*'*len(s)
 print(main("world"))
