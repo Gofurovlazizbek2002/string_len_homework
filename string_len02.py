@@ -1,3 +1,6 @@
+from re import A
+
+
 def main(a):
     """
     A string type variable is given. Return True if its length is even. Return False if its length is odd.
@@ -6,4 +9,6 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    
+    return len(a)%2==0
+print(main('python'))
